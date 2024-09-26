@@ -89,6 +89,8 @@ void main(List<String> args) {
 
   print('----------------------');
 
+  print(dog1==person2);
+
 }
 
 //class definition for Person, with overriden toString, hashCode and operator =

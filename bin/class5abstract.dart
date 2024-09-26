@@ -8,6 +8,12 @@ void main(List<String> args) {
 
  AtherX1 c = AtherX1.twowheeler();
  print(c);
+
+ Cat cat = Cat(name: 'Ginu');
+ CuteNessProvider cutenessprovider = CuteNessProvider(entity: cat);
+
+ print('${cutenessprovider.whoiscute} ');
+
 }
 
 
@@ -43,7 +49,7 @@ class AtherX0 extends Twowheeler{
 
 // the abstract class Twowheeler is implemented here that is all its 
 // variables and methods are required to be overriden by the implementing class.
-// AtherX1 is of kind other and has 3 wheels, but ther are few models which
+// AtherX1 is of kind other and has 3 wheels, but there are few models which
 // are electricmotorcycle and has 2 wheels
 class AtherX1 implements Twowheeler{
   // or AtherX1():kind = Twowheelers.other;
@@ -70,3 +76,6 @@ class AtherX1 implements Twowheeler{
   }
 
 }
+
+
+

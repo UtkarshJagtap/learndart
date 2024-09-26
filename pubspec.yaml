@@ -8,7 +8,9 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  collection: ^1.18.0
+  collection: ^1.19.0
+  multicast_dns: ^0.3.2+7
+  web_socket_channel: ^3.0.1
   # path: ^1.8.0
 
 dev_dependencies:
