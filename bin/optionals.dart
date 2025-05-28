@@ -27,7 +27,7 @@ void main(List<String> args) {
   // This will return 'Assigned Jagtap'
   print(lastNameAss(lastName));
 
-  //lastName is still though
+  //lastName is still null though
   print(lastName);
 
   //now we will assign 'Assigned Jagtap' to it
